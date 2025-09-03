@@ -28,12 +28,12 @@ pilihvideo.addEventListener("change",function(){
     }
     if(pilihvideo.value=="b"){
         framevid.style.display="block";
-        framevid.src="4sister.mp4";
+        framevid.src="https://www.youtube.com/embed/paD8XrNGvvU";
         ketvideo.style.display="none";
     }
     if(pilihvideo.value=="c"){
         framevid.style.display="block";
-        framevid.src="mango.mp4";
+        framevid.src="https://www.youtube.com/embed/xlYZg4h7OBc";
         ketvideo.style.display="none";
     }
     if(pilihvideo.value=="d"){
@@ -344,4 +344,5 @@ btlout.addEventListener("click",function(){
 okout.addEventListener("click",function(){
     window.location.reload();
     blurscreen.style.display="none";
+
 })
