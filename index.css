@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+}
+#theme{
+    background-color: white;
+      font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#header{
+    height: 10vh;
+    width: 100%;
+    background-color: white; 
+}
+#pf{
+    color: white;
+    background-color: #0b0b58;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+#pm{
+    text-align: center;
+}
+#menu{
+    background-color: white;
+    
+    position: fixed;
+    top: 10px;
+ 
+    margin-left: 10px;
+}
+#assesment{
+    width: 100%;
+    height: 65vh;
+   display: none;
+    margin-top: 10px;
+}
+#do-assesment{
+    width: 100%;
+    height: 92%;
+}
+#perhatian{
+    color: red;
+}
+.gm{
+    text-align: center;
+
+}
+.ph{
+    color: white;
+    text-align: center;
+}
+#vid-ppg{
+    width: 80%;
+    height: 550px;
+    background-color: black;
+    margin: auto;
+}
+.pfone-set{
+    width: 20%;
+    height: 100%;
+    
+    background-color: #aaaaf0;
+}
+.pfone-set:hover{
+    background-image: linear-gradient(to bottom,transparent,white);
+    cursor: pointer;
+    border-radius: 20px;
+}
+#pfone{
+    width: 90%;
+    height: 200px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#info-gtg{
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient(to bottom,transparent,rgb(53, 48, 121),darkblue) ;
+    display: none;
+    padding-top: 20px;
+}
+#btn-pass{
+    margin: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#frame-id{
+    width: 100%;
+    height: 70vh;
+   background-image: linear-gradient(to top,transparent,#080885);
+}
+#can{
+    background-color: red;
+    color: white;
+}
+#sub{
+    background-color: rgb(20, 2, 95);
+    color: white;
+
+}
+#can:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#sub:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#can, #sub{
+    padding: 8px;
+    border-radius: 8px;
+}
+#pwrds{
+    width: 30%;
+    height: 25px;
+    margin-left: 35%;
+    text-align: center;
+
+}
+
+#syt-dwn{
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(254, 251, 251);
+    position: fixed;
+    z-index: 9999;
+    top: 20px;
+    margin-left: 30%;
+    margin-top: 20vh;
+    display: none;
+    
+
+}
+#scn{
+    display: none;
+}
+.st-sc{
+    background-color: darkblue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+.st-sc:hover{
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+#menu:hover{
+    cursor: pointer;
+}
+#xt:hover{
+    cursor: pointer;
+   
+}
+#list-menu{
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: -20%;
+    transition: 2s;
+}
+#frame{
+    width: 100%;
+    height: 85vh;
+    background-color: #0b0b58;
+}
+.guru{
+    padding: 3px;
+}
+.tg{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+   border-radius: 5px;
+   display: flex;
+   margin-bottom: 15px;
+}
+#wp{
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 5px;
+}
+#gbr-guru{
+    width: 30%;
+    height: 30vh;
+   
+  
+}
+#photo-guru{
+    width: 100%;
+}
+.ttguru{
+    text-align: justify;
+}
+#is{
+    background-color: rgb(5, 13, 126);
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    color:white;
+}
+#is:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#logout{
+    display: block;
+    background-color: white;
+    margin-left: 40%;
+    border-radius: 6px;
+}
+#x-slide{
+    background-color: rgb(151, 5, 5);
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
+}
+#x-slide:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#aboutyourteacher{
+    width: 80%;
+    height: 80vh;
+    background-color: rgb(187, 184, 184);
+    position: fixed;
+    z-index: 99999;
+    top: 12vh;
+    margin-left: 10%;
+    border-radius: 10px;
+    display: none;
+
+}
+#guru{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    padding-top: 5%;
+    display: none;
+   
+}
+#welcoming{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    padding-top: 5%;
+    display: block; /*non aktif sementara untuk membuat isi tombol penilaian setelah selesai block*/
+   
+    
+}
+#tipe-soal{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+}
+#nilai{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    display: none;
+    padding-top: 2%;
+}
+
+#pilih-video{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-radius: 6px;
+}
+#des-soal{
+    width: 100%;
+
+}
+#frame-vid{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin-top: 10px;
+    display: none;
+}
+#ket-video{
+    width: 100%;
+    height: 400px;
+    display: block;
+    
+}
+#pilih-materi{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+#show-materi{
+    height: 95%;
+    width: 100%;
+}
+.set-screen{
+    background-color: white;
+    color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.set-screen:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+
+}
+#ns{
+    display: none;
+}
+#list-materi{
+    width: 100%;
+    height: 68vh;
+ 
+    margin-top: 8px;
+    display: none;
+}
+#materials{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    padding-top: 2%;
+    display: none;
+    
+}
+#video{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    padding-top: 2%;
+    display: none;
+}
+#tt{
+    width: 100%;
+    height: 60vh;
+    margin-top: 9px;
+    
+ 
+  
+}
+#blur-screen{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 54, 71);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    opacity: 80%;
+    display: none;
+}
+#myphoto{
+    width: 100%;
+}
+#logout:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.tg:hover{
+    background-color:black;
+    cursor: pointer;
+    color: white;
+}
+#img-ku{
+    width: 100px;
+    height: 100px ;
+    
+    margin: auto;
+}
+.exit{
+   background-color:white ;
+    margin-left: 75%;
+}
+#rg{
+    text-align: center;
+    margin-top: 10px;
+}
+#mn{
+    display: none;
+}
+#footer{
+    background-color: rgb(248, 244, 244);
+    height: 5vh;
+    width: 100%;
+}
+#lms{
+    text-align: center;
+}
+#login{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: 999;
+}
+#h-lms{
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+
+}
+#lms-ing{
+    text-align: center;
+    color: white;
+}
+#o-rg{
+    text-align: center;
+    color: white;
+}
+#form-login{
+    width: 30%;
+    
+    background-color: #2657f5;
+    border-radius: 10px;
+    margin: auto;
+}
+#vr{
+    text-align: center;
+    color: white;
+}
+#pic-log{
+    width: 20%;
+    margin: auto;
+}
+#imp-log{
+    width: 100%;
+}
+#nmkamu{
+    width: 70%;
+    margin-left: 15%;
+    height: 30px;
+    text-align: center;
+    font-size: 10pt;
+}
+#pskamu{
+    width: 70%;
+    margin-left: 15%;
+    height: 30px;
+    text-align: center;
+    font-size: 10pt;
+}
+#per-konfir{
+    color: red;
+    text-align: center;
+}
+#text-konfir{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+#ok-konfir{
+    margin-left: 80%;
+    background-color: #0b0b58;
+    color: white;
+    pad: 5px;
+    border-radius: 5px;
+}
+#ok-konfir:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#btl-konfir{
+    display: none;
+
+}
+#btl-nm{
+    display: none;
+    background-color: darkblue;
+    color: white;
+}
+#btl-nm:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+#prt-logout{
+    width: 30%;
+    
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    top: 1vh;
+    margin-left: 35%;
+    color: white;
+    background-color: red;
+    padding: 8px;
+    display: none;
+    
+
+}
+#btl-out{
+    padding: 5px;
+    background-color: rgb(7, 109, 41);
+    color:white;
+    width: 30%;
+}
+#btl-out:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#ok-out{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    width: 30%;
+}
+#ok-out:hover{
+    padding: 5px;
+    background-color:darkorange;
+    color: white;
+    cursor: pointer;
+}
+#bks-btn-lms-out{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#lms-out{
+    margin-left: 10%;
+}
+#ket-lms-out{
+    text-align: center;
+}
+#kon-lms{
+    display: none;
+}
+#all-btn-konfir{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#btl-konfir{
+    background-color: white;
+    color: black;
+}
+#btl-konfir:hover{
+    background-color: rgb(233, 33, 116);
+    color: white;
+    cursor: pointer;
+}
+.st-lms:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.st-lms{
+    width: 40%;
+    background-color: rgb(10, 175, 106);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+#konfirmasi-log{
+    display: none;
+    padding-top: 10px;
+    background-color: white;
+    width: 35%;
+   padding-bottom:20px ;
+    position: fixed;
+    top:0;
+    z-index: 99999;
+    margin-left: 32%;
+    
+}
+#sb-nm{
+    background-color: rgb(5, 51, 255);
+    color:white;
+    text-align: center;
+    padding: 8px;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+#sb-nm:hover{
+    background-color: rgb(127, 185, 252);
+    color: black;
+    cursor: pointer;
+}
+#sgn{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
