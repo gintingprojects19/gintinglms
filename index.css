@@ -1,0 +1,1432 @@
+*{
+    margin: 0;
+}
+#ket-profile{
+    background-color: skyblue;
+}
+#theme{
+    background-color: white;
+      font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#smpp{
+    position: fixed;
+    z-index: 9999;
+    
+    width: 50%;
+    top: 2vh;
+    margin-left: 25%;
+    display: none;
+}
+#ex-smpp{
+    background-color: red;
+    color: white;
+}
+#ex-smpp:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+}
+#gbr-smpp{
+    width: 100%;
+    height: 100%;
+}
+#nml{
+    padding-bottom: 3px;
+}
+#header{
+    height: 10vh;
+    width: 100%;
+    background-color: white; 
+    display: none;
+}
+#pf{
+    color: white;
+    background-color: #0b0b58;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+#pm{
+    text-align: center;
+}
+#menu{
+    background-color: white;
+    
+    position: fixed;
+    top: 10px;
+ 
+    margin-left: 10px;
+}
+#assesment{
+    width: 100%;
+    height: 65vh;
+   display: none;
+    margin-top: 10px;
+}
+#do-assesment{
+    width: 100%;
+    height: 92%;
+}
+#info-user{
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 8pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#perhatian{
+    color: red;
+}
+.gm{
+    text-align: center;
+
+}
+#pilihuser{
+    width: 71.9%;
+    margin-left: 15%;
+    text-align: center;
+    height: 30px;
+    
+}
+.ph{
+    color: white;
+    text-align: center;
+}
+
+.pfone-set{
+    width: 20%;
+    height: 100%;
+    
+    background-color: #aaaaf0;
+}
+.pfone-set:hover{
+    background-image: linear-gradient(to bottom,transparent,white);
+    cursor: pointer;
+    border-radius: 20px;
+}
+#pfone{
+    width: 90%;
+    height: 200px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#info-gtg{
+    width: 100%;
+    height: 1000px;
+    background-image: linear-gradient(to bottom,transparent,rgb(53, 48, 121),darkblue) ;
+    display: none;
+    padding-top: 20px;
+     padding-bottom: 100px;
+}
+#btn-pass{
+    margin: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#frame-id{
+    width: 100%;
+    height: 70vh;
+
+}
+#photo-profile{
+    width: 20%;
+    height: 100px;
+   
+}
+#ket-profile{
+    width: 90%;
+    
+    background-color: rgb(3, 7, 83);
+    padding-top: 8px;
+    padding-right: 8px;
+    color: white;
+}
+#can{
+    background-color: red;
+    color: white;
+}
+#sub{
+    background-color: rgb(20, 2, 95);
+    color: white;
+
+}
+#can:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#sub:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#can, #sub{
+    padding: 8px;
+    border-radius: 8px;
+}
+#pwrds{
+    width: 30%;
+    height: 25px;
+    margin-left: 35%;
+    text-align: center;
+
+}
+
+#syt-dwn{
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(254, 251, 251);
+    position: fixed;
+    z-index: 9999;
+    top: 20px;
+    margin-left: 30%;
+    margin-top: 20vh;
+    display: none;
+    
+
+}
+#scn{
+    display: none;
+}
+.st-sc{
+    background-color: darkblue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+.st-sc:hover{
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+#menu:hover{
+    cursor: pointer;
+}
+#xt:hover{
+    cursor: pointer;
+   
+}
+#list-menu{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(27, 4, 80);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    
+    transition: 2s;
+}
+#frame{
+    width: 100%;
+    height: 85vh;/* setting vh full height*/
+    background-color: #0b0b58;
+    display: none;
+}
+.guru{
+    padding: 3px;
+}
+.tg{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+   border-radius: 5px;
+   display: flex;
+   margin-bottom: 15px;
+}
+#wp{
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 5px;
+}
+#gbr-guru{
+    width: 30%;
+    height: 30vh;
+   
+  
+}
+#photo-guru{
+    width: 100%;
+}
+.ttguru{
+    text-align: justify;
+}
+#is{
+    background-color: rgb(5, 13, 126);
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    color:white;
+}
+#is:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#logout{
+    display: block;
+    background-color: white;
+    margin-left: 40%;
+    border-radius: 6px;
+}
+#x-slide{
+    background-color: rgb(151, 5, 5);
+    color: white;
+    
+    margin-left: 92%;
+    border-radius: 10px;
+    margin-top: 8px;
+    
+}
+#x-slide:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#nml{
+    font-weight: bold;
+    font-size: 14pt;
+}
+#aboutyourteacher{
+    width: 60%;
+    height: 80vh;
+   background-color: rgb(3, 7, 83);
+    position: fixed;
+    z-index: 99999;
+    top: 12vh;
+    margin-left: 20%;
+    border-radius: 10px;
+    display: none;
+
+}
+#guru{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    padding-top: 5%;
+    display: none;
+   
+}
+#kelola{
+    width: 100%;
+    
+    margin: auto;
+    color: white;
+    padding-top: 5%;
+    background-color:rgb(11 11 88);
+    display: none;
+}
+
+#pmp{
+    margin-left: 28%;
+}
+
+#kelola-mapel{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+#ishow{
+    width: 100%;
+    margin: auto;
+    height: 90%;
+}
+#ex-show{
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+#ex-show:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+#show-datamapel{
+    display: none;
+    width: 90%;
+    height: 100vh;
+    z-index: 999;
+   margin-left: 5%;
+    
+    position: fixed;
+    top: 3vh;
+}
+#gmp{
+    margin-left: 27%;
+}
+#tmpl-data{
+    width: 50%;
+    height: 70%;
+    color: white;
+    margin: auto;
+}
+#welcoming{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    padding-top: 5%;
+    display: block; /*non aktif sementara untuk membuat isi tombol penilaian setelah selesai block*/
+   
+    
+}
+#tipe-soal{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+}
+#nilai{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    display: none;
+    padding-top: 2%;
+}
+
+#pilih-video{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-radius: 6px;
+}
+#des-soal{
+    width: 100%;
+
+}
+#frame-vid{
+    width: 100%;
+   height: 50vh;
+    background-color: black;
+    margin-top: 10px;
+    display: none;
+}
+#ket-video{
+    width: 100%;
+    height: 400px;
+    display: block;
+    
+}
+#pilih-materi{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+#show-materi{
+    height: 95%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.set-screen{
+    background-color: white;
+    color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.set-screen:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+
+}
+#ns{
+    display: none;
+}
+#list-materi{
+    width: 100%;
+    height: 68vh;
+    
+    margin-top: 8px;
+    display: none;
+}
+#materials{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    padding-top: 2%;
+    display: none;
+    
+}
+#video{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    color: white;
+    padding-top: 2%;
+    display: none;
+}
+#tt{
+    width: 100%;
+    height: 60vh;
+    margin-top: 9px;
+    
+ 
+  
+}
+#blur-screen{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 54, 71);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    opacity: 80%;
+    display: none;
+}
+#myphoto{
+    width: 100%;
+}
+#logout:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.tg:hover{
+    background-color:black;
+    cursor: pointer;
+    color: white;
+}
+#img-ku{
+    width: 100px;
+    height: 100px ;
+    
+    margin: auto;
+}
+.exit{
+   background-color:white ;
+    margin-left: 75%;
+}
+#rg{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+#mn{
+    display: none;
+}
+#footer{
+    background-color: rgb(248, 244, 244);
+    height: 5vh;
+    width: 100%;
+    display: none;
+}
+#lms{
+    text-align: center;
+}
+#login{
+    width: 100%;
+    height: 100vh;
+    background-color: #0b0b58;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: 999;
+}
+#h-lms{
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+
+}
+#lms-ing{
+    text-align: center;
+    color: white;
+}
+#o-rg{
+    text-align: center;
+    color: white;
+}
+#form-login{
+    width: 30%;
+    
+    background-color: #2657f5;
+    border-radius: 10px;
+    margin: auto;
+}
+#vr{
+    text-align: center;
+    color: white;
+}
+#pic-log{
+    width: 20%;
+    margin: auto;
+}
+#imp-log{
+    width: 100%;
+}
+#nmkamu{
+    width: 70%;
+    margin-left: 15%;
+    height: 30px;
+    text-align: center;
+    font-size: 10pt;
+    display: none;/*ditampilkan jika user dipilih*/
+}
+#pskamu{
+    width: 70%;
+    margin-left: 15%;
+    height: 30px;
+    text-align: center;
+    font-size: 10pt;
+    display: none;/*ditampilkan jika user dipilih*/
+}
+#per-konfir{
+    color: red;
+    text-align: center;
+}
+#re-pengguna{
+    background-color: rgb(4, 9, 80);
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    display: none;
+    
+}
+#iduser{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+#re-pengguna:hover{
+    cursor: pointer;
+    
+    background-color: rgb(8, 31, 57);
+    color: rgb(244, 242, 249);
+    
+}
+
+#text-konfir{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+#ok-konfir{
+    margin-left: 80%;
+    background-color: #0b0b58;
+    color: white;
+    pad: 5px;
+    border-radius: 5px;
+}
+#ok-konfir:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#btl-konfir{
+    display: none;
+
+}
+#btl-nm{
+    display: none;
+    background-color: darkblue;
+    color: white;
+}
+#btl-nm:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+#prt-logout{
+    width: 30%;
+    
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    top: 1vh;
+    margin-left: 35%;
+    color: white;
+    background-color: red;
+    padding: 8px;
+    display: none;
+    
+
+}
+#btl-out{
+    padding: 5px;
+    background-color: rgb(7, 109, 41);
+    color:white;
+    width: 30%;
+}
+#btl-out:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#ok-out{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    width: 30%;
+}
+#ok-out:hover{
+    padding: 5px;
+    background-color:darkorange;
+    color: white;
+    cursor: pointer;
+}
+#bks-btn-lms-out{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#lms-out{
+    margin-left: 10%;
+}
+#ket-lms-out{
+    text-align: center;
+}
+#kon-lms{
+    display: none;
+}
+#all-btn-konfir{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#btl-konfir{
+    background-color: white;
+    color: black;
+}
+#btl-konfir:hover{
+    background-color: rgb(233, 33, 116);
+    color: white;
+    cursor: pointer;
+}
+.st-lms:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#set-ph{
+    width: 100%;
+}
+.st-lms{
+    width: 40%;
+    background-color: rgb(10, 175, 106);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+#konfirmasi-log{
+    display: none;
+    padding-top: 10px;
+    background-color: white;
+    width: 35%;
+   padding-bottom:20px ;
+    position: fixed;
+    top:0;
+    z-index: 99999;
+    margin-left: 32%;
+    
+}
+#gru{
+    font-size: 10pt;
+}
+#sb-nm{
+    background-color: rgb(5, 51, 255);
+    color:white;
+    text-align: center;
+    padding: 8px;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    display: none;/*ditampilkan jika user dipilih*/
+}
+#sb-nm:hover{
+    background-color: rgb(127, 185, 252);
+    color: black;
+    cursor: pointer;
+}
+#sgn{
+    color: white;
+    text-align: center;
+}
+#btn-mobile{
+    position: fixed;
+    z-index: 9991;
+    background-color: blue;
+    top: 5px;
+    left: 5px;
+    display: none;
+
+}
+/*setting mobile*/
+
+
+@media only screen and (max-width: 1920px){
+    #photo-profile{
+        margin: auto;
+        margin-bottom: 15%;
+    }
+    #set-ketpro{
+        margin-left: 20%;
+        font-size: 14pt;
+    }
+    #smpp{
+        top: 2vh;
+        width: 60%;
+        margin-left: 20%;
+        
+    }
+    #lms{
+        padding-top: 10pt;
+    }
+
+}
+
+@media only screen and (max-width: 1668px){
+    #smpp{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 1280px){
+    #smpp{
+        width: 50%;
+        margin-left: 25%;
+        
+    }
+}
+@media only screen and (max-width: 1556px) {
+
+}
+
+@media only screen and (max-width: 1473px) {
+    #frame-id{
+        display: block;
+    }
+    #photo-profile{
+        margin: auto;
+    }
+    #ket-profile{
+        margin-top: 50px;
+    
+    }
+    #set-ketpro{
+        margin-left: 10%;
+        font-size: 10pt;
+        
+    }
+    #nml{
+        margin-left: 30%;
+    }
+  
+}
+
+@media only screen and (max-width: 1473px){
+
+    #nml{
+        margin-left: 0;
+    }
+
+}
+@media only screen and (max-width: 1296px) {
+    #smpp{
+        width: 80%;
+        margin-left: 10%;
+        top: 5vh;
+    }
+}
+@media only screen and (max-width: 1261px){
+        #smpp{
+        width: 60%;
+        margin-left:20%;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+    #smpp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #gbr-guru{
+        width: 30%;
+    }
+    #video{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #konfirmasi-log{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 1206px){
+    #gbr-guru{
+        width: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 964px) {
+    #list-menu{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 942px) {
+    #form-log{
+        width: 50%;  
+    }
+    #login{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 879px){
+        #photo-profile{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 876px) {
+
+}
+@media only screen and (max-width: 834px) {
+    #form-login{
+        width: 70%;
+    }
+    #login{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 834px) {
+    #form-login{
+        width: 50%;
+    }
+    #login{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 820px){
+    #smpp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #gbr-guru{
+        width: 60%;
+        height: 230px;
+    }
+    #konfirmasi-log{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 768px){
+    #guru{
+        width: 80%;
+    }
+    #konfirmasi-log{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #gbr-guru{
+        width: 40%;
+        height: 220px;
+    }
+    #smpp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #pfone{
+        display: block;
+        
+        
+    }
+    .pfone-set{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #tmpl-data{
+        width: 90%;
+    }
+    #gmp{
+        font-size: 12pt;
+        margin-left: 10%;
+    }
+    #materials{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #fs{
+        display: none;
+    }
+    #video{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #nilai{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #welcoming{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 700px) {
+
+}
+@media only screen and (max-width: 634px) {
+    #list-menu{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 624px) {
+
+}
+@media only screen and (max-width: 619px) {
+    #form-login{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #form-login{
+        width: 66%;
+    }
+    #aboutyourteacher{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #konfirmasi-log{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #prt-logout{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    #list-menu{
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 523px){
+    #gbr-guru{
+        width: 50%;
+        height: 23%;
+        
+       
+    }
+}
+@media only screen and (max-width: 511px){
+    #lms{
+        font-size: 16pt;
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 501px) {
+    #form-login{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 487px){
+    #lms{
+        font-size: 14pt;
+    }
+}
+@media only screen and (max-width: 484px) {
+    #list-menu{
+        width: 45%;
+    }
+}
+
+
+@media only screen and (max-width: 441px){
+    #aboutyourteacher{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #form-login{
+        width: 95%;
+    }
+        #gmp{
+        font-size: 10pt;
+        margin-left: 2.5%;
+    }
+    #gbr-guru{
+       height: 220px;
+
+    }
+    #smpp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #tmpl-data{
+        width: 80%;
+        
+    }
+    #list-menu{
+        width: 100%;
+    }
+    #login{
+        width: 100%;
+    }
+    #guru{
+        width: 80%;
+    }
+    #gbr-guru{
+        width: 70%;
+        margin-bottom: 0px;
+    }
+    #konfirmasi-log{
+        width: 100%;
+        margin-left: 0;
+    }
+    #h-lms{
+        width: 80%;
+        margin: auto;
+    }
+    #lms{
+        font-size: 14pt;
+        padding-top: 10px;
+        margin-left: 10%;
+    }
+    #pfone{
+        display: block;
+    }
+    .pfone-set{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #welcoming{
+        width:90%;
+        margin-left:5%;
+    }
+    #materials{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #video{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #nilai{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #tmpl-data{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #syt-dwn{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 422px) {
+    #list-menu{
+        width: 50%;
+    }
+}
+/* setting 414 selesai*/
+@media only screen and (max-width: 414px){
+    #guru{
+        width: 80%;
+    }
+    #h-lms{
+        width: 75%;
+        
+        margin: auto;
+        
+
+    }
+    #smpp{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #fs{
+        display: none; /*non aktif ketika tampilan mobile -handphone pada semua setting*/
+    }
+    #list-menu{
+        width: 100%;
+    }
+    #tmpl-data{
+        width: 90%;
+    }
+    #kelola-mapel{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #gmp{
+        margin-left: 5%;
+    }
+    #materials{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #welcoming{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #nilai{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #video{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #prt-logout{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    #gbr-guru{
+        height: 0;
+        margin-bottom: 200px;
+        width: 50%;
+        margin-top: 100px;
+    }
+    #aboutyourteacher{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #nml{
+        margin-left: 0;
+    }
+    #photo-profile{
+        width: 40%;
+    }
+    #konfirmasi-log{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #syt-dwn{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #lms{
+        font-size: 12.8pt;
+        margin-left: 15%;
+        padding-top: 10px;
+    }
+    #pm{
+        margin-left: 5%;
+    }
+}
+/*setting 412 sudah selesai*/
+@media only screen and (max-width: 412px) {
+    #form-login{
+        width: 95%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #gmp{
+        font-size: 10pt;
+    }
+
+    #set-ketpro{
+        font-size: 10pt;
+    }
+    #aboutyourteacher{
+        width: 90%;
+        margin-left: 5%;
+        top: 5vh;
+        
+    }
+    #photo-profile{
+        margin: auto;
+        width: 40%;
+    }
+    #ket-profile{
+        width: 95%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        margin-top: 40px;
+    }
+    #nml{
+        font-size: 12pt;
+        margin-left: 0;
+    }
+    #set-ketpro{
+        margin-left: 0;
+    }
+    #frame-id{
+        display: block;
+    }
+    #pfone{
+        display: block;
+    }
+
+    .pfone-set{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #list-menu{
+        width: 100%;
+    }
+    #syt-dwn{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #tmpl-data, #video{
+        width: 80%;
+    }
+    #materials{
+        padding-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #video{
+        padding-top: 20px;
+        width: 90%;
+    }
+    #guru{
+        width: 80%;
+        
+    }
+    #gbr-guru{
+        width: 60%;
+        margin-bottom: 200px;
+        margin-top: 0;
+    }
+    #frame-vid{
+        width: 100%;
+    }
+    #nilai{
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+    #pm{
+        text-align: left;
+        margin-left: 20%;
+    }
+    #welcoming{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #lms{
+        font-size: 12.8pt;
+        padding-top: 20px;
+        text-align:left;
+        margin-left: 20%;
+    }
+    #konfirmasi-log{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #login{
+        width: 100%;
+    }
+    #h-lms{
+        width: 80%;
+        margin: auto;
+    }
+    #smpp{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 393px) {
+    #form-login{
+        width: 70%;
+    }
+    
+}
+
+/*setting 390 sudah selesai*/
+@media only screen and (max-width: 390px) {
+    #lms{
+        font-size: 12.5pt;
+    }
+    #login{
+        background-color: #2657f5;
+    }
+    
+    #form-login{
+        width: 85%;
+        margin-left: 7.5%;
+        
+    }
+    
+}
+@media only screen and (max-width: 384px) {
+    #list-menu{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+}
+/*selesai*/
+@media only screen and (max-width: 375px){
+    #form-login{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #h-lms{
+        padding-top: 5vh;
+    }
+    #gmp{
+        font-size: 10pt;
+    }
+    #lms{
+        width: 80%;
+        font-size: 12pt;
+    }
+    #pm{
+        font-size: 10pt;
+    }
+    #wp{
+        font-size: 9pt;
+    }
+    #set-infosoal{
+        font-size: 11pt;
+    }
+}
+
+
+/* setting 314 sudah selesai*/
+@media only screen and (max-width: 314px) {
+    #list-menu{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 270px) {
+    #list-menu{
+        width: 100%;
+    }
+}
