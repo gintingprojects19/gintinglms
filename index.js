@@ -218,7 +218,7 @@ tipesoal.addEventListener("change", function(){
     if(tipesoal.value=="pilihanganda"){
         dessoal.style.display="none";
         assesment.style.display="block";
-        doassesment.src="https://docs.google.com/spreadsheets/d/1ObyK229IIxm6kiMy-Km2u6aMs0osBrBeBGC3qcTFR-Q/edit?gid=1911408061#gid=1911408061";
+        doassesment.src="https://forms.gle/NSaErCbmnpsMXwubA";
     }
     if(tipesoal.value=="isiansingkat"){
         dessoal.style.display="none";
@@ -596,6 +596,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
