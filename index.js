@@ -78,7 +78,7 @@ pilihvideo.addEventListener("change",function(){
     }
     if(pilihvideo.value=="b"){
         framevid.style.display="block";
-        framevid.src="https://www.youtube.com/embed/WElJJ2Sk90U&t=118s";
+        framevid.src="https://www.youtube.com/embed/zlxLiVW7po0&t=10s";
         ketvideo.style.display="none";
     }
     if(pilihvideo.value=="c"){
@@ -596,5 +596,6 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
