@@ -78,17 +78,22 @@ pilihvideo.addEventListener("change",function(){
     }
     if(pilihvideo.value=="b"){
         framevid.style.display="block";
-        framevid.src="4sister.mp4";
+        framevid.src="https://www.youtube.com/emebed/WElJJ2Sk90U";
         ketvideo.style.display="none";
     }
     if(pilihvideo.value=="c"){
         framevid.style.display="block";
-        framevid.src="4sister.mp4";
+        framevid.src="https://www.youtube.com/embed/Y1Jvg8Mq5VQ";
         ketvideo.style.display="none";
     }
     if(pilihvideo.value=="d"){
         framevid.style.display="block";
-        framevid.src="https://www.youtube.com/embed/JpuQstTuKjs";
+        framevid.src="https://www.youtube.com/embed/bbYjTzvXIgQ";
+        ketvideo.style.display="none";
+    }
+    if(pilihvideo.value=="e"){
+        framevid.style.display="block";
+        framevid.src="https://www.youtube.com/embed/A_aePhLtpQ0";
         ketvideo.style.display="none";
     }
 })
@@ -591,3 +596,4 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
