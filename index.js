@@ -34,7 +34,7 @@ kelolamapel.addEventListener("change",function(){
     }
     if(kelolamapel.value=="dk"){
         showdatampl.style.display="block";/*Kosakata siswa*/
-        ishow.src="https://docs.google.com/spreadsheets/d/1ObyK229IIxm6kiMy-Km2u6aMs0osBrBeBGC3qcTFR-Q/edit?gid=1911408061#gid=1911408061";
+        ishow.src="https://docs.google.com/spreadsheets/d/15EJRIqCB14ghDm9VG-Q9twQyTbSeA0H0KCSBgvf4oPg/edit?usp=sharing";
     }
     if(kelolamapel.value=="pd"){
         showdatampl.style.display="none";
@@ -596,6 +596,7 @@ pilihpengguna.addEventListener("change",function(){
 repengguna.addEventListener("click",function(){
     window.location.reload();
 })
+
 
 
 
