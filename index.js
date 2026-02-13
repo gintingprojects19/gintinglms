@@ -15,7 +15,7 @@ lanjut.addEventListener("click",function(){
        
     }
     if(pilih.value=="binggris12"){
-        /*window.open("https://www.gmail.com");*/
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfNOX8jsJwBQu2gntsFS-0MKC1frQmYTH7ACVvKsdF0cuV0HA/viewform?usp=sharing&ouid=109698654449487242421");
     }
      if(pilih.value=="binggris11"){
         /*window.open("https://www.gmail.com");*/
@@ -25,6 +25,7 @@ lanjut.addEventListener("click",function(){
     }
 
 })
+
 
 
 
