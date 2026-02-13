@@ -11,7 +11,8 @@ lanjut.addEventListener("click",function(){
         window.open("https://drive.google.com/drive/folders/1lBR7tFtQfne5Pnd4_GMB9LgsLOe_hhQL?usp=sharing");
     }
     if(pilih.value=="binggrislanjut11"){
-        window.open("https://gintingprojects19.github.io/inggris-tk-lanjut-11/?i=1");
+        /*window.open("https://gintingprojects19.github.io/inggris-tk-lanjut-11/?i=1");*/
+         window.open("https://drive.google.com/drive/folders/1lBR7tFtQfne5Pnd4_GMB9LgsLOe_hhQL?usp=sharing");
     }
     if(pilih.value=="binggris12"){
         /*window.open("https://www.gmail.com");*/
@@ -24,4 +25,5 @@ lanjut.addEventListener("click",function(){
     }
 
 })
+
 
