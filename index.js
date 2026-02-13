@@ -8,7 +8,7 @@ lanjut.addEventListener("click",function(){
     
     }
     if(pilih.value=="binggrislanjut12"){
-        /*window.open("https://www.gmail.com");*/
+        window.open("https://drive.google.com/drive/folders/1lBR7tFtQfne5Pnd4_GMB9LgsLOe_hhQL?usp=sharing");
     }
     if(pilih.value=="binggrislanjut11"){
         window.open("https://gintingprojects19.github.io/inggris-tk-lanjut-11/?i=1");
@@ -24,3 +24,4 @@ lanjut.addEventListener("click",function(){
     }
 
 })
+
