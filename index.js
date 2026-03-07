@@ -21,10 +21,11 @@ lanjut.addEventListener("click",function(){
         /*window.open("https://www.gmail.com");*/
     }
     if(pilih.value=="binggris10"){
-        window.open("https://forms.gle/Epb1XHXqjf81rntw8");
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfpo1UAhx6mnASGUms5dwIL8UuvHvWsilmXn85N62IWbo2IcA/viewform?usp=header");
     }
 
 })
+
 
 
 
