@@ -17,7 +17,7 @@ lanjut.addEventListener("click",function(){
     if(pilih.value=="binggris12"){
         window.open("https://docs.google.com/forms/d/e/1FAIpQLSfNOX8jsJwBQu2gntsFS-0MKC1frQmYTH7ACVvKsdF0cuV0HA/viewform?usp=sharing&ouid=109698654449487242421");
     }
-     if(pilih.value=="binggris11"){
+     if(pilih.value=="kelas12"){
          alert("anda belum memilih kelas")
     }
     if(pilih.value=="binggris10"){
@@ -25,6 +25,7 @@ lanjut.addEventListener("click",function(){
     }
 
 })
+
 
 
 
