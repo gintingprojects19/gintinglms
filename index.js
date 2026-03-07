@@ -18,13 +18,14 @@ lanjut.addEventListener("click",function(){
         window.open("https://docs.google.com/forms/d/e/1FAIpQLSfNOX8jsJwBQu2gntsFS-0MKC1frQmYTH7ACVvKsdF0cuV0HA/viewform?usp=sharing&ouid=109698654449487242421");
     }
      if(pilih.value=="binggris11"){
-        /*window.open("https://www.gmail.com");*/
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfpo1UAhx6mnASGUms5dwIL8UuvHvWsilmXn85N62IWbo2IcA/viewform?usp=header");
     }
     if(pilih.value=="binggris10"){
-        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfpo1UAhx6mnASGUms5dwIL8UuvHvWsilmXn85N62IWbo2IcA/viewform?usp=header");
+        /*window.open("");*/
     }
 
 })
+
 
 
 
