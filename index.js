@@ -18,13 +18,14 @@ lanjut.addEventListener("click",function(){
         window.open("https://docs.google.com/forms/d/e/1FAIpQLSfNOX8jsJwBQu2gntsFS-0MKC1frQmYTH7ACVvKsdF0cuV0HA/viewform?usp=sharing&ouid=109698654449487242421");
     }
      if(pilih.value=="kirim"){
-         alert("anda belum memilih kelas")
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfNOX8jsJwBQu2gntsFS-0MKC1frQmYTH7ACVvKsdF0cuV0HA/viewform?usp=sharing&ouid=109698654449487242421");
     }
     if(pilih.value=="binggris10"){
         /*window.open("");*/
     }
 
 })
+
 
 
 
