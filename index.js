@@ -7,6 +7,10 @@ lanjut.addEventListener("click",function(){
         alert("anda belum memilih kelas")
     
     }
+        if(pilih.value=="proyekweb"){
+         window.open("https://docs.google.com/forms/d/e/1FAIpQLScMFpZWSVaVLLm9ZOMyffknNZ8zgKpofwk2HUhV87YM8rdecA/viewform?usp=header");
+    
+    }
     if(pilih.value=="binggrislanjut12"){
         window.open("https://drive.google.com/drive/folders/1lBR7tFtQfne5Pnd4_GMB9LgsLOe_hhQL?usp=sharing");
     }
@@ -26,6 +30,7 @@ lanjut.addEventListener("click",function(){
     }
 
 })
+
 
 
 
