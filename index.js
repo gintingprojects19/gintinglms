@@ -7,7 +7,7 @@ lanjut.addEventListener("click",function(){
         alert("anda belum memilih kelas")
     
     }
-        if(pilih.value=="proyekweb"){
+   if(pilih.value=="proyekweb"){
          window.open("https://docs.google.com/forms/d/e/1FAIpQLScMFpZWSVaVLLm9ZOMyffknNZ8zgKpofwk2HUhV87YM8rdecA/viewform?usp=header");
     
     }
@@ -30,6 +30,7 @@ lanjut.addEventListener("click",function(){
     }
 
 })
+
 
 
 
